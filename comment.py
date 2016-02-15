@@ -1,5 +1,5 @@
 '''
-    Scratch Comment Viewer Server v2.1.1
+    Scratch Comment Viewer Server v2.1.2
 
     Created by Scratch user, Gaza101.
     Licensed under GNU General Public License v3.
@@ -202,7 +202,7 @@ info("Initialisation successful.")
 while True:
     while True:
         try:
-            new_lc = p.parse(project,1,comment_timeout)[0]
+            new_lc = p.parse(project,1,to=comment_timeout)[0]
         except urllib2.HTTPError as e:
             info("HTTP Error "+str(e.code)+" when obtaining comments. Does the project exist?",1)
             info("Reason: "+str(e.reason),1,v=True)
