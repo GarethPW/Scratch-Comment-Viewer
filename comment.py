@@ -1,5 +1,5 @@
 '''
-    Scratch Comment Viewer Server v2.1.2
+    Scratch Comment Viewer Server v2.1.3
 
     Created by Scratch user, Gaza101.
     Licensed under GNU General Public License v3.
@@ -27,6 +27,11 @@ def csreplace(s,o,n=''):
     for i in o: #For every find character,
         s = s.replace(i,n) #Replace with the new character.
     return s
+
+ver = "2.1.3"
+
+print (  "Gaza101's Scratch Comment Viewer Server v"+ver
+        +"\nWith thanks to Dylan5797 and DadOfMrLog\n"   )
 
 emap = {}
 new_lc = tuple()
