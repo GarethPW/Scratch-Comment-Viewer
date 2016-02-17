@@ -1,5 +1,5 @@
 '''
-    Scratch Comment Viewer Server v2.1.6
+    Scratch Comment Viewer Server v2.1.7
 
     Created by Scratch user, Gaza101.
     Licensed under GNU General Public License v3.
