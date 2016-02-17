@@ -36,7 +36,7 @@ def custom_fallback(prompt="Password: ",stream=None):
 
 getpass.fallback_getpass = custom_fallback
 
-ver = "2.1.5"
+ver = "2.1.6"
 
 os.system("cls" if os.name == "nt" else "clear")
 
